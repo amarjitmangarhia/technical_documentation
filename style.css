@@ -78,13 +78,13 @@ html {
   margin-left: 60px;
 }
 
-.code {
+/* .code {
   padding: 10px;
   background-color: #f7f7f7;
   margin: 10px 0;
   font-family: monospace;
   line-height: 25px;
-}
+} */
 
 @media screen and (max-width: 815px) {
   body {
