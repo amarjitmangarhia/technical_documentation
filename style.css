@@ -5,9 +5,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+/* body {
   min-width: 290px;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -57,6 +57,7 @@ html {
 
 .main-section header {
   font-size: 30px;
+
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -86,22 +87,23 @@ html {
 }
 
 @media screen and (max-width: 815px) {
-  #navbar {
-    position: relative;
-  }
-
   body {
     position: absolute;
+    top: 0;
+    left: 0;
   }
-
-  #navbar ul {
-    max-height: 200px;
-    border: 1px solid;
-    border-bottom: 3px solid rgb(93, 93, 93);
+  #navbar {
+    position: relative;
+    width: 100%;
+    border-right: 3px solid rgb(93, 93, 93);
+    height: 250px;
     overflow: auto;
   }
 
   #main-doc {
-    margin: 0px 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 15px;
   }
 }
