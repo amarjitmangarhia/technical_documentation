@@ -56,8 +56,7 @@ html {
 }
 
 .main-section header {
-  font-size: 30px;
-
+  font-size: 25px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -87,17 +86,17 @@ html {
 } */
 
 @media screen and (max-width: 815px) {
-  body {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
   #navbar {
     position: relative;
-    width: 100%;
-    border-right: 3px solid rgb(93, 93, 93);
+    min-width: 100%;
+    border-right: none;
+    border-bottom: 3px solid rgb(93, 93, 93);
     height: 250px;
     overflow: auto;
+  }
+
+  #navbar ul {
+    border: 1px solid;
   }
 
   #main-doc {
@@ -105,5 +104,19 @@ html {
     margin-right: 20px;
     margin-top: 30px;
     font-size: 15px;
+  }
+
+  .main-section article {
+    margin-left: 10px;
+  }
+
+  .main-section li {
+    margin-left: 30px;
+  }
+
+  .main-section header {
+    font-size: 22px;
+    margin: 0 0;
+    margin-top: 30px;
   }
 }
